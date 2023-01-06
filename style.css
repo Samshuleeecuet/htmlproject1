@@ -8,7 +8,7 @@
 .header-section{
     height: 770px;
     width: 1536px;
-    background-image: url("./images/banner/banner1.png");
+    background-image: url("../images/banner/banner1.png");
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,7 +141,7 @@
 
 .btn-image{
     height: 200px;
-    background: url("./images/gradient2.png"),url("./images/watch.png");
+    background: url("../images/gradient2.png"),url("../images/watch.png");
     background-size: 80%;
     background-repeat: no-repeat,no-repeat;
     border-radius: 8px;
