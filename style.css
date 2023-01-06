@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Work+Sans:wght@300;400&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-section{
+    height: 770px;
+    width: 1536px;
+    background-image: url("/images/banner/banner1.png");
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-title{
+    position: relative;
+    left: 55%;
+    top: 25%;
+    width: 650px;
+}
+.header-title h1{
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: right;
+}
+.header-description{
+    position: relative;
+    left: 53.4%;
+    top: 25%;
+    width: 550px;
+    color: #444343;
+    text-align: right;
+}
+.header-button{
+    position: relative;
+    left: 53.4%;
+    top: 26%;
+    width: 550px;
+    text-align: right;
+}
+
+.btn-primary{
+    height: 60px;
+    background-color: #FD6E0A;
+    border: 1px #FD6E0A;
+    font-size: 12pt;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding:0px 10px;
+    font-weight: 400;
+    width: 160px;
+    color: whitesmoke;
+}
+
+
+.failure-part{
+    margin-top: 7%;
+    display: flex;
+}
+.failure-image{
+    width: 50%;
+    text-align: center;
+}
+.failure-image img{
+    width: 569px;
+    height: 723.3px;
+}
+.failure-box{
+    width: 50%;
+}
+.failure-box h3,p,div{
+    position: relative;
+    top: 40%;
+}
+.failure-box h3{
+    width: 250px;
+    height: 94px;
+    font-size: 35px;
+}
+.failure-box-description{
+    size: 16px;
+    line-height: 26px;
+    color:#444343;
+    width: 400px;
+}
+.failure-box-mark{
+    margin-top: 15px;
+}
+.failure-box-mark p{
+    margin-bottom: 10px;
+    color:#444343;
+}
+.failure-box-mark p i{
+    color: rgb(101, 243, 101);
+    margin-right: 10px;
+}
