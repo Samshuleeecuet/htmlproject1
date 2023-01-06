@@ -43,7 +43,7 @@
 }
 
 .btn-primary{
-    height: 60px;
+    height: 50px;
     background-color: #FD6E0A;
     border: 1px #FD6E0A;
     font-size: 12pt;
@@ -51,8 +51,9 @@
     border-radius: 5px;
     padding:0px 10px;
     font-weight: 400;
-    width: 160px;
+    width: 140px;
     color: whitesmoke;
+    font-weight: bold;
 }
 
 
@@ -96,4 +97,125 @@
 .failure-box-mark p i{
     color: rgb(101, 243, 101);
     margin-right: 10px;
+}
+
+
+.myplan{
+ margin-top: 5%;
+}
+.myplan .myplan-title{
+    text-align: center;
+    font-Weight:700;
+    font-size:30px;
+    line-height: 46.92px;
+}
+
+.myplan-icon{
+    display: flex;
+    width: 1000px;
+    margin-left: 20%;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.icon-box{
+    text-align: center;
+    height: 200px;
+}
+.icon-box h1{
+    margin-top: 10px;
+    size: 30px;
+    line-height: 35.19px;
+}
+.icon-box p{
+    color:#737272;
+    position: relative;
+    top: 12px;
+    font-size:25px;
+    line-height:29.33px;
+}
+
+.btn-image{
+    height: 200px;
+    background: url("/images/gradient2.png"),url("/images/watch.png");
+    background-size: 80%;
+    background-repeat: no-repeat,no-repeat;
+    border-radius: 8px;
+    margin: 10% 0% 3% 20%;
+}
+.btn-center{
+ margin-left: 5%;
+ position: relative;
+ top: 25px;
+}
+.btn-center h2{
+    width: 300px;
+    color: #FFFFFF;
+}
+.btn-seconday{
+    height: 50px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    font-size: 12pt;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding:0px 10px;
+    font-weight: 400;
+    width: 140px;
+    color: #FD6E0A;
+    font-weight: bold;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.footer-leftside{
+    width: 50%;
+    margin:5% 1% 10% 10%;
+    color: white;
+}
+.footer-leftside h3{
+ font-size: 40px;
+}
+.footer-leftside .footer-description{
+    margin-top: -30px;
+    width: 500px;
+}
+.footer-leftside p{
+    margin-bottom: 20px;
+}
+.footer-icon img{
+    margin-right: 10px;
+}
+.footer-rightside{
+    width: 50%;
+    margin:5% 1% 10% 10%;
+    color: white;
+}
+.footer-rightside h5{
+    font-size: 13pt;
+}
+.footer-rightside input{
+    display: block;
+    margin-top: 20px;
+    width: 304px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-family: 'Work Sans', sans-serif;
+    background-color: black;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.footer-rightside button{
+    margin-top: 20px;
 }
