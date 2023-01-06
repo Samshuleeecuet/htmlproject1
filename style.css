@@ -4,6 +4,7 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+/* Hearder Section */
 .header-section{
     height: 770px;
     width: 1536px;
@@ -41,7 +42,7 @@
     width: 550px;
     text-align: right;
 }
-
+/* Primary Button */
 .btn-primary{
     height: 50px;
     background-color: #FD6E0A;
@@ -56,6 +57,7 @@
     font-weight: bold;
 }
 
+/* Failure Section */
 
 .failure-part{
     margin-top: 7%;
@@ -99,6 +101,7 @@
     margin-right: 10px;
 }
 
+/* My Plan Section */
 
 .myplan{
  margin-top: 5%;
@@ -134,6 +137,8 @@
     line-height:29.33px;
 }
 
+/* Button Image Section */
+
 .btn-image{
     height: 200px;
     background: url("/images/gradient2.png"),url("/images/watch.png");
@@ -151,6 +156,9 @@
     width: 300px;
     color: #FFFFFF;
 }
+
+/* Secondary Button Section */
+
 .btn-seconday{
     height: 50px;
     background-color: white;
@@ -165,7 +173,7 @@
     font-weight: bold;
 }
 
-
+/* Footer Section */
 
 footer{
     width: 100%;
