@@ -8,7 +8,7 @@
 .header-section{
     height: 770px;
     width: 1536px;
-    background-image: url("https://github.com/Samshuleeecuet/htmlproject1/blob/main/images/banner/banner1.png");
+    background-image: url("../https://github.com/Samshuleeecuet/htmlproject1/blob/main/images/banner/banner1.png");
     background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
@@ -141,7 +141,7 @@
 
 .btn-image{
     height: 200px;
-    background: url("https://github.com/Samshuleeecuet/htmlproject1/blob/main/images/gradient2.png"),url("https://github.com/Samshuleeecuet/htmlproject1/blob/main/images/watch.png");
+    background: url("../https://github.com/Samshuleeecuet/htmlproject1/blob/main/images/gradient2.png"),url("../https://github.com/Samshuleeecuet/htmlproject1/blob/main/images/watch.png");
     background-size: 80%;
     background-repeat: no-repeat,no-repeat;
     border-radius: 8px;
